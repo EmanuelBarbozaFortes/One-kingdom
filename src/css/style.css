@@ -28,7 +28,7 @@ nav ul{
     font-family: 'Oswald', sans-serif;
     height: 89vh;
     background: url("/src/imagens/fundo-inicio.png");
-    
+    display: flex;
 }
 h1{
     text-transform: uppercase;
