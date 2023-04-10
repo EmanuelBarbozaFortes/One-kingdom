@@ -27,8 +27,8 @@ nav ul{
     color: aliceblue;
     font-family: 'Oswald', sans-serif;
     height: 89vh;
-    background: url(../imagens/fundo-inicio.png);
-    
+    background: url("../imagens/fundo-inicio.png");
+
 }
 h1{
     text-transform: uppercase;
