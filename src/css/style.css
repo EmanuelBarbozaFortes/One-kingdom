@@ -74,19 +74,66 @@ nav ul{
     margin-top: -75px;
     margin-left: 575px;
 }
-#container-incio{
-    /* margin-right: 40px; */
-}
 p{
     margin-top: 20px;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
 }
-h2{
+.inicio h2{
     margin-top: 30px;
     background-color:#FAD02C;
-    padding: 25px 70px;
+    padding: 22px 68px;
     font-family: 'Poppins', sans-serif;
-    font-size: 30px;
+    font-size: 27px;
     border-radius: 17px;
+}
+
+
+.sobre-nos{
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+    height: 100vh;
+    background: url(../imagens/fundo-sobre-nos.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.sobre-nos h1{
+    margin-top: 90px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing:2px;
+}
+.sobre-nos p{
+    margin: 40px 0px 40px 0px;
+    font-size: 22px;
+}
+.sobre-nos h2{
+    margin-top: 60px;
+    background-color:#FAD02C;
+    padding: 22px 68px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    border-radius: 17px;
+}
+
+.sobre-nos img{
+    /* width: 100%; */
+    width: 600px;
+    /* margin-left: 120px; */
+}
+
+.container-sobre-nos{
+    width: 1440px;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.infor-sobre-nos{
+    width: 600px;
 }
