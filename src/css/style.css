@@ -86,6 +86,12 @@ p{
     font-family: 'Poppins', sans-serif;
     font-size: 27px;
     border-radius: 17px;
+    transition: 0.3s ease-in-out;
+}
+.inicio h2:hover{
+    /* background-color:rgb(249, 234, 234); */
+    background-color: #FAFE99;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 
@@ -103,7 +109,7 @@ p{
 .sobre-nos h1{
     margin-top: 90px;
     font-family: 'Oswald', sans-serif;
-    font-size: 45px;
+    font-size: 53px;
     text-transform: uppercase;
     letter-spacing:2px;
 }
@@ -118,12 +124,16 @@ p{
     font-family: 'Poppins', sans-serif;
     font-size: 22px;
     border-radius: 17px;
+    transition: 0.3s ease-in-out;
+}
+.sobre-nos h2:hover{
+    /* background-color:rgb(249, 234, 234); */
+    background-color: #FAFE99;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.sobre-nos img{
-    /* width: 100%; */
+.sobre-nos img{  
     width: 600px;
-    /* margin-left: 120px; */
 }
 
 .container-sobre-nos{
@@ -136,4 +146,9 @@ p{
 }
 .infor-sobre-nos{
     width: 600px;
+}
+.linha{
+    background-color: #FAD02C;
+    padding:4px ;
+    width: 100px;
 }
