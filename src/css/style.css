@@ -30,7 +30,13 @@ nav ul{
     background: url("../imagens/fundo-inicio.png");
 
 }
-h1{
+.inicio h1{
     text-transform: uppercase;
     letter-spacing:2px;
+}
+h2{
+    color: #FAD02C;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 200px; 
+    font-weight: 300;
 }
