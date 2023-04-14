@@ -1,3 +1,5 @@
+/* color: #FAD02C; */
+
 img{
     width: 160px;
 }
@@ -28,15 +30,63 @@ nav ul{
     font-family: 'Oswald', sans-serif;
     height: 89vh;
     background: url("../imagens/fundo-inicio.png");
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
 
 }
 .inicio h1{
+    font-size: 45px;
     text-transform: uppercase;
     letter-spacing:2px;
 }
+.intro-inicio{
+    height: 89vh;
+    width: 35%;
+    /* background-color: rgba(240, 248, 255, 0.196); */
+    background-color: rgba(255, 255, 255, 0.089);
+    backdrop-filter: blur(10px);
+    opacity: 0.9;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 350px;
+    
+}
+.container-vessiculo{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.vessiculo{
+    width: 80%;
+}
+.inicio img{
+    width: 75px;
+}
+ #aspas-esquerda{
+    margin-right: 485px;
+    margin-bottom: -40px;
+}
+#aspas-direita{
+    margin-top: -75px;
+    margin-left: 575px;
+}
+#container-incio{
+    /* margin-right: 40px; */
+}
+p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
 h2{
-    color: #FAD02C;
-    font-family: 'Catamaran', sans-serif;
-    font-size: 200px; 
-    font-weight: 300;
+    margin-top: 30px;
+    background-color:#FAD02C;
+    padding: 25px 70px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    border-radius: 17px;
 }
