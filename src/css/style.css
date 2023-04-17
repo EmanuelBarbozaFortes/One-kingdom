@@ -109,6 +109,57 @@ nav ul {
     color: #ffffff;
 }
 
+.container-vessiculo {
+    border: 1px solid;
+    border-color: #FAD02C #0A0A0A #FAD02C #0A0A0A;
+    background-color: #0a0a0a00;
+    padding: 15px;
+    width: 100%;
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-vessiculo {
+    width: 100%;
+
+}
+
+.container-vessiculo h3 {
+    color: #000000;
+    font-size: 35px;
+    /* letter-spacing: 1px; */
+}
+
+.letreiro {
+    width: 100%;
+    overflow: hidden;
+    back
+}
+
+.letreiro-wrapper {
+    display: inline-flex;
+    animation: letreiro 35s linear infinite;
+}
+
+.letreiro-texto {
+    padding: 5px ;
+    font-family: 'Bebas Neue', cursive;
+    white-space: nowrap;
+    font-size: 60px;
+    margin-right: 100px;
+}
+
+@keyframes letreiro {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
 
 
 
