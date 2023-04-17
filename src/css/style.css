@@ -32,7 +32,7 @@ nav ul {
 }
 
 .inicio {
-    background-color: chartreuse;
+    background-color: rgb(255, 255, 255);
     display: flex;
     height: 89vh;
     width: 100%;
