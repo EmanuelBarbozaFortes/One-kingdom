@@ -1,97 +1,198 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/css/rest.css">
-    <link rel="stylesheet" href="./src/css/style.css">
-    <link rel="stylesheet" href="./src/css/responsive.css">
-    <link rel="shortcut icon" href="src/imagens/logo-simbolo.png" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/rest.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css" />
+    <link
+      rel="shortcut icon"
+      href="src/imagens/logo-simbolo.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
     <title>One Kingdom</title>
-</head>
+  </head>
 
-<body>
-    <div class="fundo-menu">
-        <div class="menu">
-            <div class="img-menu"><img src="src/imagens/logo.svg" alt=""></div>
-            <nav class="itens-de-nav">
-                <ul>
-                    <li>início</li>
-                    <li>Sobre nós</li>
-                    <li>Participantes</li>
-                    <li>Contatos</li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-    <section class="inicio">
-        <div class="container-inicio">
-            <div class="video">
-                <video autoplay muted loop>
-                    <source src="src/videos/videos-tema.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="infor-inicio">
-                <div class="convite">
-                    <h3>CONVITE ESPECIAL:</h3>
-                    <p>Não perca esta oportunidade de adorar a Deus conosco!</p>
-                    <p>Participe e sinta-se acolhido em nossa comunidade.</p>
-                </div>
-                <img src="src/imagens/logo-simbolo.png" alt="">
-                <a href="">
-                    <h2>Faça já sua inscrição</h2>
-                </a>
-            </div>
-        </div>
-    </section>
-    <div class="container-vessiculo">
-        <h3>Darei a eles um só pensamento e uma só conduta, para que me temam durante toda a sua vida,
-            para o seu próprio bem e o de seus filhos e descendentes.</h3>
-        <!-- <p>Jeremias 32:39-40</p> -->
-    </div>
-    <section class="sobre-nos">
-        <div>
-            <h1>SOBRE NÓS</h1>
-            <div class="linha"></div>
-        </div>
-        <div class="container-sobre-nos">
-            <div class="infor-sobre-nos">
-                <p>Há aproximadamente três anos, Deus nos deu uma visão, um sonho.</p>
-                <p>Nesse sonho várias igrejas se uniam deixando toda denominação de lado e juntos adoravam o rei dos
-                    reis.</p>
-                <p>O pai nos deu a visão e estamos executando criamos esse evento com identidade de reino.</p>
-                <div>
-                    <a href="">
-                        <h2>PARTICIPE DO NOSSO PRÓXIMO EVENTO!</h2>
-                    </a>
-                </div>
-            </div>
-            <div><img src="src/imagens/foto-sobre-nos-cortada.png" alt=""></div>
-        </div>
-    </section>
-    <div class="letreiro">
-        <div class="letreiro-wrapper">
-            <span class="letreiro-texto">One Kingdom</span>
-            <span class="letreiro-texto">One Kingdom</span>
-            <span class="letreiro-texto">One Kingdom</span>
-            <span class="letreiro-texto">One Kingdom</span>
-            <span class="letreiro-texto">One Kingdom</span>
-            <span class="letreiro-texto">One Kingdom</span>
-            <span class="letreiro-texto">One Kingdom</span>
-            <span class="letreiro-texto">One Kingdom</span>
-            <span class="letreiro-texto">One Kingdom</span>
-            <span class="letreiro-texto">One Kingdom</span>
-            <span class="letreiro-texto">One Kingdom</span>
-            <span class="letreiro-texto">One Kingdom</span>
-            <span class="letreiro-texto">One Kingdom</span>
-        </div>
-    </div>
-    <section>
+  <body>
+    <header class="bg-nav">
+      <div class="menu">
+        <img class="logo" src="src/imagens/logo.svg" alt="logo" />
 
-    </section>
-    <script src="src/js/letreiro.js"></script>
-</body>
+        <nav class="nav">
+          <ul class="navegation">
+            <li><a href="#home" class="ativo">início</a></li>
+            <li><a href="#about-me">Sobre nós</a></li>
+            <!-- <li><a href="#participants">Participantes</a></li> -->
+            <li><a href="#contacts">Contatos</a></li>
+          </ul>
+        </nav>
 
+        <nav class="nav-mobile">
+          <div class="center">
+            <div></div>
+          </div>
+          <div class="container">
+            <ul class="nav navegation-mobile">
+              <li><a href="#home">início</a></li>
+              <li><a href="#about-me">Sobre nós</a></li>
+              <!-- <li><a href="#participants">Participantes</a></li> -->
+              <li><a href="#contacts">Contatos</a></li>
+              <ul class="social">
+                <li>
+                  <a
+                    href="https://www.instagram.com/one_kingdom_1/"
+                    target="_blank"
+                    ><img src="./src/imagens/instagram.png" alt="instagram"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="./src/imagens/email.png" alt="email"
+                  /></a>
+                </li>
+                <li>
+                  <a
+                    href="https://api.whatsapp.com/send?phone=12036327253"
+                    target="_blank"
+                    ><img src="./src/imagens/phone.png" alt="phone"
+                  /></a>
+                </li>
+              </ul>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="home-page" id="home">
+      <div class="slider-home" id="slider">
+        <picture>
+          <source media="(max-width:750px)" srcset="./src/imagens/foto-slide-responsive-1.png" type="image/png">
+          <img class="selected" src="./src/imagens/foto-slide-1.png"/>
+      </picture>
+
+        <img src="./src/imagens/foto-slide-2.png" />
+        <img src="./src/imagens/foto-slide-3.jpg" />
+        <img src="./src/imagens/foto-slide-4.png" />
+        <img src="./src/imagens/foto-slide-5.png" />
+        <img src="./src/imagens/foto-slide-6.png" />
+      </div>
+
+      <div class="info">
+        <div class="invitation">
+          <h1>CONVITE ESPECIAL:</h1>
+          <p>Não perca esta oportunidade de adorar a Deus conosco!</p>
+          <p>Participe e sinta-se acolhido em nossa comunidade.</p>
+        </div>
+        <a href="#" class="btn"> Faça já sua inscrição </a>
+      </div>
+    </section>
+
+    <div class="verse">
+      <h3>
+        "Há um só corpo e um só Espírito, como também fostes chamados em uma só
+        esperança da vossa vocação."
+      </h3>
+    </div>
+
+    <section class="about-me" id="about-me">
+      <h1>SOBRE NÓS</h1>
+
+      <div class="container">
+        <div class="info">
+          <p>Há aproximadamente três anos, Deus nos deu uma visão, um sonho.</p>
+          <p>
+            Nesse sonho várias igrejas se uniam deixando toda denominação de
+            lado e juntos adoravam o rei dos reis.
+          </p>
+          <p>
+            O pai nos deu a visão e estamos executando criamos esse evento com
+            identidade de reino.
+          </p>
+          <a href="#" class="btn"> PARTICIPE DO NOSSO PRÓXIMO EVENTO! </a>
+        </div>
+        <img class="img-adm" data-aos="zoom-in" data-aos-duration="2000" src="src/imagens/foto-sobre-nos-cortada.png" alt="adm"/>
+      </div>
+    </section>
+
+    <div class="slider">
+      <div class="infinite-slider">
+        <span class="text">One Kingdom</span>
+        <span class="text">One Kingdom</span>
+        <span class="text">One Kingdom</span>
+        <span class="text">One Kingdom</span>
+        <span class="text">One Kingdom</span>
+        <span class="text">One Kingdom</span>
+        <span class="text">One Kingdom</span>
+        <span class="text">One Kingdom</span>
+        <span class="text">One Kingdom</span>
+        <span class="text">One Kingdom</span>
+        <span class="text">One Kingdom</span>
+        <span class="text">One Kingdom</span>
+        <span class="text">One Kingdom</span>
+      </div>
+    </div>
+
+    <section section class="about-event">
+      <div  class="container">
+        <h1 class="title">Próximo evento</h1>
+
+        <div data-aos="fade-up" data-aos-duration="1500" class="info-event">
+          <div class="location">
+            <p>Faith church</p>
+            <p>
+              600 Danbury Rd<span class="unit-1">New Milford, CT 06776</span
+              ><span class="pais">United States</span>
+            </p>
+          </div>
+
+          <div class="info">
+            <p class="date">17 à 18 <span>de</span> novembro</p>
+            <p class="hour">00:00hrs</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="contacts">
+      <img class="logo-footer" src="./src/imagens/logo.svg" alt="logo" />
+
+      <address class="social">
+        <a
+          href="https://www.instagram.com/one_kingdom_1/"
+          class="instagram"
+          target="_blank"
+        >
+          one_kingdom_1
+        </a>
+        <a class="phone"> +1 (203) 632-7253 </a>
+        <a class="email"> info@onekingdom.com </a>
+      </address>
+
+      <nav class="nav nav-footer">
+        <ul>
+          <li><a href="#home">início</a></li>
+          <li><a href="#about-me">Sobre nós</a></li>
+          <!-- <li><a href="#participants">Participantes</a></li> -->
+          <li><a href="#contacts">Contatos</a></li>
+        </ul>
+      </nav>
+
+      <div class="copy">
+        <p>© 2023 direitos reservados | One Kingdom</p>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script> AOS.init();</script>
+    <script src="src/js/index.js"></script>
+    
+  </body>
 </html>
