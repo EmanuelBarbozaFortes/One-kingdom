@@ -507,7 +507,7 @@ body {
 }
 
 .footer .logo-footer {
-  max-width: 263px;
+  max-width: 280px;
   margin-bottom: 80px;
 }
 
@@ -570,4 +570,11 @@ body {
 .footer .copy p {
   font-size: 1.2rem;
   margin-top: 90px;
+}
+.copy h3{
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+.copy a{
+  color: #e39828;
 }
