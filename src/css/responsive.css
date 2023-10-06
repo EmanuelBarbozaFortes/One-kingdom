@@ -276,6 +276,7 @@
   }
 
   .footer .copy {
+    text-align: end;
     position: absolute;
     right: 20px;
     bottom: 20px;
