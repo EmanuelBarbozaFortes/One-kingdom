@@ -440,7 +440,7 @@ body {
 
 .about-event .info-event .info .date {
   margin-bottom: 40px;
-  text-align: center;
+  text-align: start;
 }
 
 /* .about-event .info-event .info .date span{
