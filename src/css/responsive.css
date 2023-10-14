@@ -125,11 +125,21 @@
   .slider-home {
     width: 100%;
   }
+  .background-sumiu{
+   display: none;
+  }
+  .background-evento{
+    min-height: calc(100vh - 167px);
+    width: 100%;
+    background: url(../imagens/imagem-evento.jpg) center center  no-repeat;
+    background-position: 100% 30%;
+    background-size: cover;
+  }
 
   .home-page .info {
     width: 100%;
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.509);
+    background-color: rgba(0, 0, 0, 0.435);
   }
 }
 
