@@ -99,9 +99,15 @@ body {
   padding-top: 87px;
   position: relative;
 }
-
+.background-evento{
+  min-height: calc(100vh - 167px);
+  width: 100%;
+  background: url(../imagens/imagem-one-kingom-paisagem.jpg) center center  no-repeat;
+  /* background-position: 100% 30%; */
+  background-size: cover;
+}
 .slider-home{
-  width: 50%;
+  width: 56%;
   position: relative;
   min-height: calc(100vh - 167px);
 }
@@ -125,7 +131,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 50%;
+  width: 44%;
   text-align: center;
   color: aliceblue;
   background-color: #0a0a0a;
