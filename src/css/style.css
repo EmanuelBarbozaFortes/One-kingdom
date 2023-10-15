@@ -227,6 +227,10 @@ body {
     transform: translateX(-50%);
   }
 }
+.letreiro-inverso{
+  background-color: #000000;
+  color: #ffffff;
+}
 
 /* ABOUT ME  */
 
@@ -308,8 +312,8 @@ body {
 /* PARTICIPANTES */
 
 .participants-page {
-  background: url(../imagens/dark-plaster-pattern.png) center center no-repeat;
-  background-size: cover;
+  background: url(../imagens/sessao-participantes-bluer.png) center center no-repeat;
+  background-size: 100%;
   padding: 220px 0 120px;
 }
 
