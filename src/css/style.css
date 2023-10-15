@@ -312,8 +312,8 @@ body {
 /* PARTICIPANTES */
 
 .participants-page {
-  background: url(../imagens/dark-plaster-pattern.png) no-repeat;
-  background-size: 100%;
+  background: url(../imagens/dark-plaster-pattern.png)center center no-repeat;
+  background-size: cover ;
   padding: 220px 0 120px;
 }
 
@@ -388,7 +388,6 @@ body {
 }
 
 .swiper-slide img {
-  opacity: 80%;
   position: relative;
   display: block;
   width: 400px;
