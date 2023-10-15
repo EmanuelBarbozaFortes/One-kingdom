@@ -121,7 +121,9 @@
   .about-event .container .info {
     text-align: center;
   }
-
+  .info .invitation{
+    display: none;
+  }
   .slider-home {
     width: 100%;
   }
@@ -131,15 +133,19 @@
   .background-evento{
     min-height: calc(100vh - 167px);
     width: 100%;
-    background: url(../imagens/imagem-one-kingdom-retrato.jpg) center center  no-repeat;
-    background-position: 100% 30%;
+    background: url(../imagens/imagem-evento-mobile.jpg) center center  no-repeat;
+    background-position: 100% 22%;
     background-size: cover;
   }
-
   .home-page .info {
+    display: flex;
+    justify-content: flex-end;
     width: 100%;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.435);
+  }
+  .info a{
+    margin-bottom: 40px;
   }
 }
 
@@ -204,7 +210,7 @@
   }
 
   .home-page .info .btn {
-    border: 3px solid #ffffff;
+    /* border: 3px solid #fad02c; */
     padding: 22px 68px;
     font-size: 2rem;
   }
@@ -430,6 +436,11 @@
 }
 
 @media (max-width: 450px) {
+  .swiper-slide img {
+    width: 350px;
+    height: 344px;
+    object-fit: 100%;
+}
   .home-page .info .btn {
     font-size: 1.7rem;
   }
@@ -501,10 +512,12 @@
   }
 
   .home-page .info .btn {
-    color: #ffffff;
-    border: 1px solid #ffffff;
-    background-color: transparent;
+    color: #000000;
+    background: #fad02c;
     padding: 22px 40px;
+  }
+  .home-page .info .btn:hover {
+    background: #fffb86;
   }
 
   .about-me .container .btn {

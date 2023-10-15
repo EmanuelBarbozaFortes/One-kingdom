@@ -32,7 +32,7 @@
           <ul class="navegation">
             <li><a href="#home" class="ativo">início</a></li>
             <li><a href="#about-me">Sobre nós</a></li>
-            <!-- <li><a href="#participants">Participantes</a></li> -->
+            <li><a href="#participants">Participantes</a></li>
             <li><a href="#contacts">Contatos</a></li>
           </ul>
         </nav>
@@ -45,7 +45,7 @@
             <ul class="nav navegation-mobile">
               <li><a href="#home">início</a></li>
               <li><a href="#about-me">Sobre nós</a></li>
-              <!-- <li><a href="#participants">Participantes</a></li> -->
+              <li><a href="#participants">Participantes</a></li>
               <li><a href="#contacts">Contatos</a></li>
               <ul class="social">
                 <li>
@@ -105,7 +105,7 @@
           <p>Não perca esta oportunidade de adorar a Deus conosco!</p>
           <p>Participe e sinta-se acolhido em nossa comunidade.</p>
         </div>
-        <a href="https://www.eventbrite.com/e/733246278357?aff=oddtdtcreator" target="_blank" class="btn"> Faça já sua inscrição </a>
+        <a href="https://www.eventbrite.com/e/733246278357?aff=oddtdtcreator" target="_blank" class="btn"> inscreva-se aqui</a>
       </div>
     </section>
 
@@ -159,6 +159,61 @@
         <span class="text">One Kingdom</span>
       </div>
     </div>
+    <section class="participants-page" id="participants">
+      <div class="container">
+        <h1 class="title">Participantes</h1>
+    
+        <div class="swiper-button-prev"></div>
+        <div class="participants swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="participant swiper-slide">
+              <img src="./src/imagens/julia-vitoria.jpg" alt="participant" />
+    
+              <div class="info">
+                <h1 class="name">Julia Vitoria</h1>
+                <p class="office">Cantora</p>
+              </div>
+            </div>
+    
+            <div class="participant swiper-slide">
+              <img src="./src/imagens/vinicius-zulato.jpg" alt="participant" />
+    
+              <div class="info">
+                <h1 class="name">Vinicius Zulato</h1>
+                <p class="office">Pregador</p>
+              </div>
+            </div>
+    
+            <!-- <div class="participant swiper-slide">
+              <img src="./src/imagens/part.png" alt="participant" />
+    
+              <div class="info">
+                <h1 class="name">Roberto</h1>
+                <p class="office">Palestrante</p>
+              </div>
+            </div>
+            <div class="participant swiper-slide">
+              <img src="./src/imagens/part.png" alt="participant" />
+    
+              <div class="info">
+                <h1 class="name">Roberto</h1>
+                <p class="office">cantor</p>
+              </div>
+            </div>
+    
+            <div class="participant swiper-slide">
+              <img src="./src/imagens/part.png" alt="participant" />
+    
+              <div class="info">
+                <h1 class="name">Roberto</h1>
+                <p class="office">cantor</p>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
 
     <section section class="about-event">
       <div class="container">
@@ -204,7 +259,7 @@
         <ul>
           <li><a href="#home">início</a></li>
           <li><a href="#about-me">Sobre nós</a></li>
-          <!-- <li><a href="#participants">Participantes</a></li> -->
+          <li><a href="#participants">Participantes</a></li>
           <li><a href="#contacts">Contatos</a></li>
         </ul>
       </nav>
@@ -216,6 +271,36 @@
     </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".mySwiper", {
+        slidesPerView: 4,
+        spaceBetween: 10,
+        freeMode: true,
+        loop: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        autoplay: {
+      disableOnInteraction:false,
+      delay: 3000,
+    },
+        breakpoints: {
+          300: {
+            slidesPerView: 1,
+          },
+          620: {
+            slidesPerView: 2,
+          },
+          800: {
+            slidesPerView: 2,
+          },
+          1100: {
+            slidesPerView: 2,
+          },
+        },
+      });
+    </script>
     <script>
       AOS.init();
     </script>
