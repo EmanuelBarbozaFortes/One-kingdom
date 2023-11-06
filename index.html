@@ -170,7 +170,9 @@
               <img src="./src/imagens/julia-vitoria.jpg" alt="participant" />
     
               <div class="info">
-                <h1 class="name">Julia Vitória</h1>
+                <a href="https://www.instagram.com/juliavitoria.ofc/" target="_blank">
+                  <h1 class="name">Julia Vitória</h1>
+                </a>
                 <p class="office">Cantora</p>
               </div>
             </div>
@@ -179,8 +181,20 @@
               <img src="./src/imagens/vinicius-zulato.jpg" alt="participant" />
     
               <div class="info">
-                <h1 class="name">Vinicius Zulato</h1>
+                <a href="https://www.instagram.com/viniciuszulato/" target="_blank">
+                  <h1 class="name">Vinicius Zulato</h1>
+                </a>
                 <p class="office">Pregador</p>
+              </div>
+            </div>
+            <div class="participant swiper-slide">
+              <img src="./src/imagens/andre-aquino.jpeg" alt="participant" />
+    
+              <div class="info">
+                <a href="https://www.instagram.com/andrempaquino/" target="_blank">
+                  <h1 class="name">André Aquino</h1>
+                </a>
+                <p class="office">Cantor</p>
               </div>
             </div>
           </div>
@@ -264,8 +278,8 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script>
       const swiper = new Swiper(".mySwiper", {
-        slidesPerView: 4,
-        spaceBetween: 10,
+        slidesPerView: 3,
+        spaceBetween: 30,
         freeMode: true,
         loop: true,
         navigation: {
@@ -274,7 +288,7 @@
         },
         autoplay: {
       disableOnInteraction:false,
-      delay: 3000,
+      delay: 2500,
     },
         breakpoints: {
           300: {
@@ -284,10 +298,10 @@
             slidesPerView: 2,
           },
           800: {
-            slidesPerView: 2,
+            slidesPerView: 3,
           },
           1100: {
-            slidesPerView: 2,
+            slidesPerView: 3,
           },
         },
       });
